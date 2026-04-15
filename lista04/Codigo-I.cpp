@@ -7,7 +7,6 @@ void move(int p1,int p2){
     movs.push_back(make_pair(p1,p2));
     cnt++;
 }
-// vai resolver o problema com n discos na pilha init, vamos mover pra dst, usando aux como auxiliar
 void hanoi(int n,int init, int dst, int aux){
     if(n == 1) move(init,dst);
     else{
